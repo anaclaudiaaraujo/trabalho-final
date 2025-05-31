@@ -9,7 +9,7 @@ import {
 } from '../trabalho.js';
 
 describe('Testes da disciplina - fundamentos JS', () => {
-
+  
   it('QUANDO informar um nome para o Pet, DEVE ser impresso na tag com letras maiúsculas', () => {
     assert.strictEqual(geradorDeTagsDeIdentificacao('Pantera'), 'PANTERA');
   });
