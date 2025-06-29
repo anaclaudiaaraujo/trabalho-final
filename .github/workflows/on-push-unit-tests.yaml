@@ -2,8 +2,9 @@ name: "Testes de Unidade com Mocha"
 
 on:
     push:
-    workflow_dispatch:
-    
+      branches:
+        - release
+
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
@@ -15,7 +16,7 @@ jobs:
       - name: Instalando Node.js v22
         uses: actions/setup-node@v2
         with:
-          node-version: '22'
+          node-version: 22.x
 
       - name: Instalando as dependências do projeto
         run: npm install

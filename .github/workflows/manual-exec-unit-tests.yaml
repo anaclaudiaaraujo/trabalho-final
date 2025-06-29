@@ -1,0 +1,29 @@
+name: "Testes de Unidade com Mocha"
+
+on:
+    workflow_dispatch:
+    
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout para bter o código do repositório
+        uses: actions/checkout@v2
+
+      - name: Instalando Node.js v22
+        uses: actions/setup-node@v2
+        with:
+          node-version: 22.x
+
+      - name: Instalando as dependências do projeto
+        run: npm install
+
+      - name: Executando os testes de unidade
+        run: npm test
+
+      - name: Publicando os resultados dos testes
+        uses: ctrf-io/github-test-reporter@v1
+        with:
+            report-path: './ctrf/*.json'
+        if: always()
