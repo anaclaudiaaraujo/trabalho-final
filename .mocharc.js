@@ -1,0 +1,1 @@
+export const reporter = 'mocha-ctrf-json-reporter';

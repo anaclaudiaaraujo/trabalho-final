@@ -1,0 +1,184 @@
+{
+  "results": {
+    "tool": {
+      "name": "mocha"
+    },
+    "summary": {
+      "tests": 15,
+      "passed": 15,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1751155184290,
+      "stop": 1751155184403
+    },
+    "tests": [
+      {
+        "name": "Testes de exceptions - geradorDeTagsDeIdentificacao QUANDO informar uma string vazia para geradorDeTagsDeIdentificacao, DEVE retornar mensagem de valor inválido",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184291,
+        "stop": 1751155184291
+      },
+      {
+        "name": "Testes de exceptions - geradorDeTagsDeIdentificacao QUANDO informar null para geradorDeTagsDeIdentificacao, DEVE retornar mensagem de valor inválido",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184291,
+        "stop": 1751155184291
+      },
+      {
+        "name": "Testes de exceptions - geradorDeTagsDeIdentificacao QUANDO informar um número para geradorDeTagsDeIdentificacao, DEVE retornar mensagem de valor inválido",
+        "status": "passed",
+        "duration": 1,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184291,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - geradorDeTagsDeIdentificacao QUANDO informar um valor booleano para geradorDeTagsDeIdentificacao, DEVE retornar mensagem de valor inválido",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - calcularConsumoDeRacao QUANDO informar peso 0 para calcularConsumoDeRacao, DEVE retornar mensagem de erro específica",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - calcularConsumoDeRacao QUANDO informar peso null para calcularConsumoDeRacao, DEVE retornar mensagem de erro específica",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - decidirTipoDeAtividadePorPorte QUANDO informar um porte não mapeado para decidirTipoDeAtividadePorPorte, DEVE retornar mensagem padrão",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - decidirTipoDeAtividadePorPorte QUANDO informar null para decidirTipoDeAtividadePorPorte, DEVE retornar mensagem de erro",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - verificarSePodeSerAdotado QUANDO informar idade negativa para verificarSePodeSerAdotado, DEVE retornar mensagem de erro",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184292,
+        "stop": 1751155184292
+      },
+      {
+        "name": "Testes de exceptions - verificarSePodeSerAdotado QUANDO informar porte vazio para verificarSePodeSerAdotado, DEVE retornar mensagem de erro",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\testes-extras.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184293
+      },
+      {
+        "name": "Testes da disciplina - fundamentos JS QUANDO informar um nome para o Pet, DEVE ser impresso na tag com letras maiúsculas",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\trabalho-final.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184293
+      },
+      {
+        "name": "Testes da disciplina - fundamentos JS QUANDO a idade = 1 + porte M, DEVE ser permitida a adoção",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\trabalho-final.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184293
+      },
+      {
+        "name": "Testes da disciplina - fundamentos JS QUANDO o peso = 14.5, DEVE ser retornado 4350 gramas para o consumo diário",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\trabalho-final.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184293
+      },
+      {
+        "name": "Testes da disciplina - fundamentos JS QUANDO o porte = pequeno, DEVE ser retornada a atividade adequada",
+        "status": "passed",
+        "duration": 0,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\trabalho-final.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184293
+      },
+      {
+        "name": "Testes da disciplina - fundamentos JS QUANDO buscar dado de exemplo, DEVE retornar um valor de forma assíncrona",
+        "status": "passed",
+        "duration": 110,
+        "retries": 0,
+        "flaky": false,
+        "filePath": "D:\\ESTUDOS\\PGATS\\integracao-continua\\trabalho-final\\testes\\trabalho-final.js",
+        "rawStatus": "passed",
+        "start": 1751155184293,
+        "stop": 1751155184403
+      }
+    ]
+  }
+}

@@ -10,6 +10,7 @@
   "description": "",
   "type": "module",
   "devDependencies": {
-    "mocha": "^11.3.0"
+    "mocha": "^11.3.0",
+    "mocha-ctrf-json-reporter": "^0.0.9"
   }
 }
