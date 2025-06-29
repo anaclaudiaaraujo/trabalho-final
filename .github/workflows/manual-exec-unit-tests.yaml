@@ -1,4 +1,4 @@
-name: "Testes de Unidade com Mocha"
+name: "Disparo Manual - Testes de Unidade com Mocha"
 
 on:
     workflow_dispatch:
