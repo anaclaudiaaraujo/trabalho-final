@@ -1,4 +1,4 @@
-name: "Disparo automático - Testes de Unidade com Mocha"
+name: "Disparo automático"
 
 on:
     push:
