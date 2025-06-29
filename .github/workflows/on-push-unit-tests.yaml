@@ -1,9 +1,10 @@
 name: "Disparo automático"
 
 on:
+  # Sempre que houver um push para a branch release, os testes de unidade serão executados automaticamente
     push:
       branches:
-        - release
+        - main
 
 jobs:
   unit-tests:
@@ -23,7 +24,8 @@ jobs:
 
       - name: Executando os testes de unidade
         run: npm test
-
+        
+      # Resultados dos testes serão salvos no formato JSON e exibidos após a execução
       - name: Publicando os resultados dos testes
         uses: ctrf-io/github-test-reporter@v1
         with:

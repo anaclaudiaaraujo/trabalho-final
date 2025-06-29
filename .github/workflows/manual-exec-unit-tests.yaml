@@ -1,6 +1,7 @@
 name: "Disparo Manual"
 
 on:
+    # A execução ocorrerá quando o usuário executar manualmente o workflow via interface
     workflow_dispatch:
     
 jobs:
@@ -22,6 +23,7 @@ jobs:
       - name: Executando os testes de unidade
         run: npm test
 
+        # Resultados dos testes serão salvos no formato JSON e exibidos após a execução
       - name: Publicando os resultados dos testes
         uses: ctrf-io/github-test-reporter@v1
         with:
